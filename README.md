@@ -1,16 +1,21 @@
 #Dependencies to be installed
 
 apt-get install mysql-server mysql-client
+
 apt-get install python-dev libmysqlclient-dev
+
 pip install MySQL-python
+
 pip install Django
 
 #To set up schema
 
 python manage.py makemigrations
+
 python manage.py migrate
 
-application is Team
+Application is Team
+
 Project is assignmentdjango
 
 #Below are the curl requests to test the API's
